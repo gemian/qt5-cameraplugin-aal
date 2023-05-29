@@ -1,7 +1,8 @@
 Source: qt5-cameraplugin-aal
 Section: libs
 Priority: optional
-Maintainer: UBports Developers <devs@ubports.com>
+Maintainer: Adam Boardman <adamboardman@gmail.com>
+XSBC-Original-Maintainer: UBports Developers <devs@ubports.com>
 Build-Depends: debhelper (>= 9),
                libgl1-mesa-dev | libgl-dev,
                libgles2-mesa-dev,
@@ -21,9 +22,7 @@ Build-Depends: debhelper (>= 9),
                libdeviceinfo-dev,
                qtdeclarative5-private-dev
 Standards-Version: 3.9.4
-Homepage: https://gitlab.com/ubports/core/qtubuntu-camera
-Vcs-Browser: https://gitlab.com/ubports/core/qtubuntu-camera
-Vcs-Git: https://gitlab.com/ubports/core/qtubuntu-camera.git
+Homepage: https://github.com/gemian/qt5-cameraplugin-aal
 
 Package: qt5-cameraplugin-aal
 Architecture: amd64 armhf i386 arm64
